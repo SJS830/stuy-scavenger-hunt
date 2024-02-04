@@ -2,8 +2,8 @@ import challenges from '@/data/challenges.json';
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
-      <p className="text-[25px]">Stuyvesant Scavenger Hunt</p>
+    <main className="flex min-h-screen flex-col items-center p-24 text-black">
+      <p className="text-[25px] text-center mb-4">Stuyvesant Scavenger Hunt</p>
       
       {
         Object.entries(challenges).map(([link, {friendly, open}], i) => (
