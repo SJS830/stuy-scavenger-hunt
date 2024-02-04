@@ -93,7 +93,7 @@ export default function Challenge({ params }) {
           </div>
         </div>
 
-        <img className="max-w-sm max-h-sm" src={`https://ik.imagekit.io/sshkolnik40/${challengeID}-${session.user.email.replace("@stuy.edu", "")}`} />
+        <img className="max-w-sm max-h-sm" src={`https://ik.imagekit.io/sshkolnik40/${challengeID}-${session.user.email.replace("@stuy.edu", "")}?${new Date().getTime()}`} />
       </div>
     </main>
   )
