@@ -16,9 +16,6 @@ export default function Home() {
           </a>
         ))
       }
-
-      {/*capture="environment" tells the browser (on mobile) to only allow camera, not uploading images*/}
-      <input type="file" accept="image/*" capture="environment" />
     </main>
   )
 }
